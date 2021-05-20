@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Myfont';
+  src: local('Myfont'), url(./assets/fonts/Myfont-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif,Myfont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./FotoJet.jpg);
+}
+
+
+.myText {
+  font-family: 'Myfont';
+}
+.introContainer{
+  background-image: url(./images/IMG_1620.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.overviewContainer{
+  background-image: url(./images/IMG_4951.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.playlistDiv{
+  background:url(./images/IMG_4951.JPG) no-repeat;
+  background-size:cover;
+  /* background-repeat: no-repeat; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
